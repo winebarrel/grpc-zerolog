@@ -5,9 +5,9 @@ import (
 	"context"
 	"fmt"
 
-	//nolint:staticcheck  // Proto v1 is deprecated; v2 doesn't work yet.
+	//lint:ignore SA1019  // Proto v1 is deprecated; v2 doesn't work yet.
 	"github.com/golang/protobuf/jsonpb"
-	//nolint:staticcheck  // Proto v1 is deprecated; v2 doesn't work yet.
+	//lint:ignore SA1019  // Proto v1 is deprecated; v2 doesn't work yet.
 	"github.com/golang/protobuf/proto"
 	grpc_logging "github.com/grpc-ecosystem/go-grpc-middleware/logging"
 	"github.com/rs/zerolog"
